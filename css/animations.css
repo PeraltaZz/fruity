@@ -1,0 +1,46 @@
+/* Animação */
+
+.introduction-bg{
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  
+  }
+  .bg-out {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  
+  .bg-in {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  
+  .introduction-text{
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  
+  }
+  
+  .text-out {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    
+    .text-in {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  
+    
+  .introduction-img{
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  
+  }
+  
+  .img-out {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    
+    .img-in {
+      transform: translateX(100%);
+      opacity: 0;
+    }

@@ -1,0 +1,56 @@
+* Introduction */
+
+#introduction{
+    padding: 40px 0px;
+}
+
+.introduction-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.introduction-text{
+    position: absolute;
+    font: 600 400px/1 "Clash Display";
+    color: #fff;
+
+}
+
+.introduction-img{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+}
+.introduction-img img{
+    width: 80%;
+}
+
+.introduction-buttons{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.introduction-buttons button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.introduction-buttons button img{
+    opacity: 0.5;
+}
+
+
+.introduction-buttons button:hover img{
+    opacity: 1;
+}
