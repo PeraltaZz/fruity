@@ -9,20 +9,20 @@ const slides = [
   {
     backgroundColor: "#C9E78A",
     text: "Pear",
-    background: "../img/pear/pear-bg.png",
-    image: "../img/pear/pear-can.png",
+    background: "img/pear/pear-bg.png",
+    image: "img/pear/pear-can.png",
   },
   {
     backgroundColor: "#FFA3BE",
     text: "Apple",
-    background: "../img/apple/apple-bg.png",
-    image: "../img/apple/apple-can.png",
+    background: "img/apple/apple-bg.png",
+    image: "img/apple/apple-can.png",
   },
   {
     backgroundColor: "#C1BEFF",
     text: "Exotic",
-    background: "../img/exotic/exotic-bg.png",
-    image: "../img/exotic/exotic-can.png",
+    background: "img/exotic/exotic-bg.png",
+    image: "img/exotic/exotic-can.png",
   },
 ];
 
